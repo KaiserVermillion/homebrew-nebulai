@@ -8,14 +8,14 @@ class Nebulai < Formula
   on_macos do
     on_intel do
       url "https://github.com/KaiserVermillion/nebulai-releases/releases/download/operator-v0.2.0/nebulai-darwin-amd64"
-      sha256 "b2a3d01971d7bf134d9e94e904a57eca0e00dd40851b8005b873fa25e2bc65ac"
+      sha256 "404d402685fc4be401feac89a0add03f396174d736979c9de616708f36a8b9c9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/KaiserVermillion/nebulai-releases/releases/download/operator-v0.2.0/nebulai-linux-amd64"
-      sha256 "089f2eb0dad14c89cfe1800086a2f12c0e98e79cdf806263222a58f32b05d299"
+      sha256 "70886ffaf4bcd3405285f08539bf8e273784b16ddbeb4deacbdacd4ea3239d2d"
     end
   end
 
