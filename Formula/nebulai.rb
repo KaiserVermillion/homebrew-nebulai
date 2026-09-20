@@ -2,28 +2,28 @@
 class Nebulai < Formula
   desc "Install and operate a self-hosted Nebulai deployment"
   homepage "https://nebulai.uk"
-  version "0.2.2"
+  version "0.3.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/KaiserVermillion/nebulai-releases/releases/download/operator-v0.2.2/nebulai-darwin-arm64"
-      sha256 "18dbc6bd53f58fd6b7dac54a1b0a4d316d0e9b956b2c44451f9e6a8fbe2d3d3d"
+      url "https://github.com/KaiserVermillion/nebulai-releases/releases/download/operator-v0.3.0/nebulai-darwin-arm64"
+      sha256 "c35d16e5a871e6f98cbcbf42f4f95887320171d2c99759c4479ee7c950ce8817"
     end
     on_intel do
-      url "https://github.com/KaiserVermillion/nebulai-releases/releases/download/operator-v0.2.2/nebulai-darwin-amd64"
-      sha256 "a728fc4f6ff4dca3a13b99e22190f3b07916bf26afc8573e884f4071c916dad1"
+      url "https://github.com/KaiserVermillion/nebulai-releases/releases/download/operator-v0.3.0/nebulai-darwin-amd64"
+      sha256 "4f38748b1a78b1f9cd672a31356b70600df3a84b592cf8b4115fae6a4ee54217"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/KaiserVermillion/nebulai-releases/releases/download/operator-v0.2.2/nebulai-linux-arm64"
-      sha256 "2a1f51bd2ed18e99f2cffe6941041acbca24fd97b9888a16f07f3abde37cbd56"
+      url "https://github.com/KaiserVermillion/nebulai-releases/releases/download/operator-v0.3.0/nebulai-linux-arm64"
+      sha256 "cc32522d0f0b7f2d1c238e707468f69fb03d2600dbf26a77030ea04afa10e1aa"
     end
     on_intel do
-      url "https://github.com/KaiserVermillion/nebulai-releases/releases/download/operator-v0.2.2/nebulai-linux-amd64"
-      sha256 "83806d23f3142a5b674ee91cf13dbd910820d4d0732ac9e1b2771e77a28a5f86"
+      url "https://github.com/KaiserVermillion/nebulai-releases/releases/download/operator-v0.3.0/nebulai-linux-amd64"
+      sha256 "5ed329f0dafd3792f2622102e5a2e00146f6caeac9138e6543466c1c8bb0ecc8"
     end
   end
 
